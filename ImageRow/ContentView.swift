@@ -68,20 +68,20 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 48, height: 48)
                     .mask(
-                        OverlappingCircles()
+                        OverlappingCircles(insetAmount: 0.5)
                     )
                     .overlay(
-                        OverlappingCircles()
+                        OverlappingCircles(insetAmount: 0.5)
                             .strokeBorder(.border, lineWidth: 0.5)
                     )
                 Image("cupcakes")
                     .resizable()
                     .frame(width: 48, height: 48)
                     .mask(
-                        OverlappingCircles()
+                        OverlappingCircles(insetAmount: 0.5)
                     )
                     .overlay(
-                        OverlappingCircles()
+                        OverlappingCircles(insetAmount: 0.5)
                             .strokeBorder(.border, lineWidth: 0.5)
                     )
                 
